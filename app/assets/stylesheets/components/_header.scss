@@ -1,0 +1,39 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  // border: 2px solid #ccc;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  flex-direction: row;
+  line-height: 100px;
+  // margin: 20px;
+  width: 50px;
+}
+
+.header-logo > img {
+  line-height: 100px;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.header-cards {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+ul{
+  padding-left:0;
+}
+
+li{
+  list-style:none;
+}

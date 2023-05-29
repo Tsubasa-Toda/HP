@@ -1,0 +1,20 @@
+.contain-home {
+  display:flex;
+  // align-content: space-between;
+}
+
+.home-explanation {
+margin-left:50px;
+align-self: center;
+}
+
+.btn-ghost {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  background-color:  #000;
+  border: 1px solid  #000;
+  padding: 8px 24px;
+  border-radius: 50px;
+  transition: opacity 0.3s ease;
+}
