@@ -1,0 +1,57 @@
+<div class="contain-home mx-3">
+  <div class="team-members">
+    <div class="card-pick">
+      <img src="https://tbtech.co/wp-content/uploads/2021/03/Boris-Paillard-200ppi-scaled.jpg" alt="">
+      <div class="card-pick-info">
+        <h2>Daniel Scharf</h2>
+        <p>Placeholder</p>
+      </div>
+    </div>
+    <div class="card-pick">
+      <img src="https://tbtech.co/wp-content/uploads/2021/03/Boris-Paillard-200ppi-scaled.jpg" alt="">
+      <div class="card-pick-info">
+        <h2>X'Zaiver Wolfinbarger</h2>
+        <p>Placeholder</p>
+      </div>
+    </div>
+    <div class="card-pick">
+      <img src="https://tbtech.co/wp-content/uploads/2021/03/Boris-Paillard-200ppi-scaled.jpg" alt="">
+      <div class="card-pick-info">
+        <h2>Stefano Zerega</h2>
+        <p>Placeholder</p>
+      </div>
+    </div>
+    <div class="card-pick">
+      <img src="https://tbtech.co/wp-content/uploads/2021/03/Boris-Paillard-200ppi-scaled.jpg" alt="">
+      <div class="card-pick-info">
+        <h2>Tsubasa Toda</h2>
+        <p>Placeholder</p>
+      </div>
+    </div>
+  </div>
+  <div class="contain-home">
+    <div class="contain-inner">
+      <h2>Team members</h2>
+      <p>Meet our talented team members</p>
+      <%= link_to "Contact Us", new_contact_path, class: "btn btn-ghost" %>
+    </div>
+  </div>
+</div>
+<footer class="l-footer-team">
+  <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/twinkl-video-games-2_ver_1.jpg" alt="logo">
+  <div class="l-footer__inner__lower">
+    <ul class="aboutSite">
+      <li><a href="#" id="scrollToTop"><i class="fa-solid fa-angles-up"></i></a></li>
+      <li><%= link_to "Contact Us", root_path %></li>
+      <li><%= link_to "About Us", team_path %></li>
+    </ul>
+  </div>
+</footer>
+<script>
+  document.getElementById("scrollToTop").addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>

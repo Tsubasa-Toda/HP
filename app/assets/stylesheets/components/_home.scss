@@ -1,11 +1,37 @@
-.contain-home {
-  display:flex;
-  // align-content: space-between;
+.content-center {
+  display: flex;
+  align-items: center;
+  height: 100vh; /* ページの高さいっぱいに表示する場合 */
 }
 
-.home-explanation {
-margin-left:50px;
+// .contain-home {
+//   display: flex;
+//   text-align: center；
+//   // position:relative;
+// }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.contain-home {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+.contain-home.mx-3 {
+  position:relative;
+}
+
+.contain-inner {
+margin-left:100px;
 align-self: center;
+// position: relative;
 }
 
 .btn-ghost {

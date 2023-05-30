@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <%= render "shared/navbar" %>
     <div class="contain-home">
-      <div class="home-photo">
+      <div class="contain-inner">
         <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/twinkl-video-games-2_ver_1.jpg" alt="logo">
       </div>
-      <div class="home-explanation">
-        <h2>Word Quest</h2>
-        <p>Me no speak English</p>
-        <%= link_to "Write a story", "#", class: "btn btn-ghost" %>
+      <div class="contain-inner">
+        <h2>HardReset Games</h2>
+        <p>Find more about our latest game</p>
+        <%= link_to "Learn more", about_path, class: "btn btn-ghost" %>
       </div>
     </div>
     <%= render "shared/footer" %>
